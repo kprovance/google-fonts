@@ -10,5 +10,5 @@ script:
 #notifications:
 #  email:
 #    recipients:
-#    - support@redux.io
+#    - kevin.provance@gmail.com
 #    on_failure: always
