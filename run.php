@@ -102,7 +102,7 @@
       echo $weekback;
       
       if ( $last_updated >= $weekback ) {
-        echo 'Exit update.  A week has not yet passed.'
+        echo 'Exit update.  A week has not yet passed.';
         return;
       }
     }
