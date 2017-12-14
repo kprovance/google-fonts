@@ -1,4 +1,4 @@
-<?php
+ey;<?php
 
 
   /**
@@ -112,6 +112,7 @@
     );
 
     $key    = getenv( 'GOOGLEKEY' );
+    echo 'key: ' . $key;
     $result = json_decode( file_get_contents( "https://www.googleapis.com/webfonts/v1/webfonts?key={$key}", false, stream_context_create( $arrContextOptions ) ) );
 
     foreach ( $result->items as $font ) {
